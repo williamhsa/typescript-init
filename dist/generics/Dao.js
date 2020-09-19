@@ -6,7 +6,7 @@ var Dao = /** @class */ (function () {
         this.nomeTabela = '';
     }
     Dao.prototype.inserir = function (object) {
-        console.log('logica inserir Pessoa');
+        console.log('logica inserir');
         return true;
     };
     Dao.prototype.atualizar = function (object) {
@@ -14,6 +14,7 @@ var Dao = /** @class */ (function () {
         return true;
     };
     Dao.prototype.remover = function (id) {
+        console.log('id', id);
         console.log('logica remover');
         return Object();
     };
@@ -28,3 +29,9 @@ var Dao = /** @class */ (function () {
     return Dao;
 }());
 exports.Dao = Dao;
+/*
+*  usando generics
+* na hora que essa classe Dao for instanciada vamos falar que tipo
+* é esse <T>
+*
+* */ 

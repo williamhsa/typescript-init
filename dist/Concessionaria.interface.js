@@ -9,4 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 *
 * quem implementar essa interface precisa dizer como esse metodo funciona
 *
+*
+* a gente precisa pensar em interfaces como um protocolo que permite que componentes isolados
+*  da nossa aplicacao se comuniquem de uma forma figamos homogenea
+*
+*  um exemplo classico de interfaces é a disponibilização que os sistemas operacionais
+* fazem para as aplicações dos recursos de hardware. O sistema operacional exige determinados
+* comportamentos da aplicação que podem ser definidos pela aplicação, mas que precisam
+* respeitar uma determinada regra um protocolo para conseguir utilizar esses recursos que
+* é gerenciado pelo SO.
+*
 * */ 

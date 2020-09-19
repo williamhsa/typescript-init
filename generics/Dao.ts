@@ -4,7 +4,7 @@ export class Dao<T> implements DaoInterface<T> {
     nomeTabela: string = '';
 
   inserir(object: T): boolean {
-    console.log('logica inserir Pessoa');
+    console.log('logica inserir');
     return true;
   }
 
@@ -14,6 +14,7 @@ export class Dao<T> implements DaoInterface<T> {
   }
 
   remover(id: number): T {
+    console.log('id', id);
     console.log('logica remover');
     return Object()
   }
@@ -28,3 +29,10 @@ export class Dao<T> implements DaoInterface<T> {
     return [Object()];
   }
 }
+
+/*
+*  usando generics
+* na hora que essa classe Dao for instanciada vamos falar que tipo
+* é esse <T>
+*
+* */
