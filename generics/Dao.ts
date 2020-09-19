@@ -34,5 +34,8 @@ export class Dao<T> implements DaoInterface<T> {
 *  usando generics
 * na hora que essa classe Dao for instanciada vamos falar que tipo
 * é esse <T>
+
+*  ao inves de eu ter varis Daos
+*  pessoaDao, concessionariaDao... eu crio uma generic Dao que recebe o tipo
 *
 * */
